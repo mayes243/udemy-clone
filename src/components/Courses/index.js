@@ -16,8 +16,8 @@ const Courses = () => {
         <h3>Excel</h3>
         <h3 className="hidden md:block">Web Development</h3>
         <h3 className="text-black">JavaScript</h3>
-        <h3>Data Science</h3>
-        <h3>AWS Certification</h3>
+        <h3 className="hidden md:block">Data Science</h3>
+        <h3 className="hidden md:block">AWS Certification</h3>
         <h3>Drawing</h3>
       </div>
       <div className="text-left w-full border border-gray-300 p-7">

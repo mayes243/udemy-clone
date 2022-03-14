@@ -8,7 +8,7 @@ const Main = () => {
         alt="me"
         className="h-full w-full object-cover bg-no-repeat bg-bottom"
       />
-      <div className="absolute bg-white top-12 left-8 p-4 flex flex-col items-start justify-center shadow-lg h-40 w-[440px]">
+      <div className="absolute bg-white top-12 p-2 md:left-8 md:p-4 flex flex-col items-start justify-center shadow-lg h-40 w-[440px]">
         <h2 className="text-3xl font-bold mb-2">Hi guys welcome !</h2>
         <h3 className="text-xl">Look at this project !!</h3>
         <h3 className="text-xl">The goal is to learn without any stress !!!</h3>
