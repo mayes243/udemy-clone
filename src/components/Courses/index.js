@@ -40,8 +40,8 @@ const Courses = () => {
         {/*  */}
         <div className="flex gap-4 flex-wrap lg:flex-nowrap mx-16">
           {data.map((course) => (
-            <div className="w-60 h-60">
-              <Course {...{ course }} key={course.id} />
+            <div className="w-60 h-60" key={course.id}>
+              <Course {...{ course }} />
             </div>
           ))}
         </div>
