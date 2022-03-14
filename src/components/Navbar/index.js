@@ -11,8 +11,10 @@ const Navbar = () => {
     <div>
       <div className="flex space-x-4 bg-white h-[4.4rem] shadow-lg text-center justify-between items-center px-4">
         <MenuIcon className="h-6 w-6 md:hidden" />
-        <h2 className="text-3xl font-bold">Udemy</h2>
-        <h3 className="hidden text-sm md:block">Categories</h3>
+        <h2 className="text-3xl font-bold hover:cursor-pointer">Udemy</h2>
+        <h3 className="hidden text-sm md:block font-semibold hover:text-gray-500 hover:cursor-pointer">
+          Categories
+        </h3>
         <form className="hidden bg-[#f8fafb] md:flex border border-black rounded-3xl flex-1 h-1/2 items-center">
           <SearchIcon className="h-5 mx-4 text-gray-400" />
           <input
@@ -21,8 +23,12 @@ const Navbar = () => {
             className="bg-transparent text-sm outline-none"
           />
         </form>
-        <h3 className="hidden text-sm lg:block">Udemy Business</h3>
-        <h3 className="hidden text-sm lg:block md:hidden">Teach on Udemy</h3>
+        <h3 className="hidden text-sm lg:block font-semibold hover:text-gray-500 hover:cursor-pointer">
+          Udemy Business
+        </h3>
+        <h3 className="hidden text-sm lg:block md:hidden font-semibold hover:text-gray-500 hover:cursor-pointer">
+          Teach on Udemy
+        </h3>
         <div className="flex">
           <SearchIcon className="h-6 w-6 mx-4 text-gray-400 md:hidden" />
           <ShoppingCartIcon className="h-6 w-6 mx-4 text-gray-400" />

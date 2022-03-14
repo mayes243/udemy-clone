@@ -3,7 +3,7 @@ import React from "react";
 
 const Course = ({ course }) => {
   return (
-    <div className="flex flex-col items-start space-y-[1px]">
+    <div className="flex flex-col items-start space-y-[1px] hover:cursor-pointer">
       <img src={course.imageName} alt={course.title} className="h-32 w-full" />
       <h2 className="font-bold text-md pt-1">{course.title}</h2>
       <h2 className="text-xs text-gray-700">{course.userName}</h2>
